@@ -1,6 +1,6 @@
 export const secretinfo = [
     {
-        "_id": "66112785fdd64a583e94337c",
+        "_id": 0,
         "isActive": false,
         "balance": "$232,447.35",
         "picture": "http://placehold.it/32x32",
@@ -9,7 +9,7 @@ export const secretinfo = [
         "text": 166622320883604830
     },
     {
-        "_id": "66112785e2588f9140993898",
+        "_id": 1,
         "isActive": true,
         "balance": "$38,579.71",
         "picture": "http://placehold.it/32x32",
@@ -18,7 +18,7 @@ export const secretinfo = [
         "text": 16469720787431516
     },
     {
-        "_id": "6611278537aff45f4ce2b835",
+        "_id": 2,
         "isActive": false,
         "balance": "$78,549.52",
         "picture": "http://placehold.it/32x32",
@@ -27,7 +27,7 @@ export const secretinfo = [
         "text": 49568373341715970
     },
     {
-        "_id": "66112785996c0a80dc539090",
+        "_id": 3,
         "isActive": true,
         "balance": "$186,913.54",
         "picture": "http://placehold.it/32x32",
@@ -36,7 +36,7 @@ export const secretinfo = [
         "text": 25273098452228180
     },
     {
-        "_id": "661127856115c26b622080ae",
+        "_id": 4,
         "isActive": false,
         "balance": "$329,812.14",
         "picture": "http://placehold.it/32x32",
@@ -45,7 +45,7 @@ export const secretinfo = [
         "text": 132076303348124540
     },
     {
-        "_id": "6611278500faae5bc05c992f",
+        "_id": 5,
         "isActive": false,
         "balance": "$109,631.05",
         "picture": "http://placehold.it/32x32",
@@ -54,7 +54,7 @@ export const secretinfo = [
         "text": 366801001097061060
     },
     {
-        "_id": "66112785f71a71ba699d8227",
+        "_id": 6,
         "isActive": false,
         "balance": "$108,857.85",
         "picture": "http://placehold.it/32x32",
