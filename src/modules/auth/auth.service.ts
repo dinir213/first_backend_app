@@ -5,12 +5,12 @@ import { AppError } from "../../common/constants/errors";
 import { UserLoginDTO } from "./dto";
 import * as bcrypt from "bcrypt";
 import {AuthUserResponse} from "./response";
-import {CryptoService} from "./services/crypto.service";
+import {TokenService} from "./services/token.service";
 @Injectable()
 export class AuthService {
     constructor(
         private readonly userService: UserService,
-        private readonly tokenService: CryptoService
+        private readonly tokenService: TokenService
         ) {}
 
     async register(dto: CreateUserDTO): Promise<CreateUserDTO> {

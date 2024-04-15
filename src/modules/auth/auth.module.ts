@@ -4,9 +4,8 @@ import { AuthService } from './auth.service';
 import {UserModule} from "../user/user.module";
 import {TokenService} from "./services/token.service";
 import {CryptoService} from "./services/crypto.service";
-import {JwtModule, JwtService} from "@nestjs/jwt";
-import {ConfigModule, ConfigService} from "@nestjs/config";
-import {UserService} from "../user/user.service";
+import {JwtService} from "@nestjs/jwt";
+import {JwtStrategy} from "./strategy";
 
 @Module({
   imports: [
@@ -17,7 +16,8 @@ import {UserService} from "../user/user.service";
       AuthService,
       CryptoService,
       TokenService,
-      JwtService
+      JwtService,
+      JwtStrategy
   ],
     exports: [
         CryptoService,
